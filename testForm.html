@@ -1,32 +1,27 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-</head>
-
-<body>
-    <div id="content">
-         <h1>POO Javascript</h1>
-         <form><input type="text" placeholder="Search" required="required"><a href="#" onclick="getUserInfos()">Rechercher</a></form>
-         <form>
-             <label for="nom"> Nom</label><input type="text" id="nom" placeholder="Nom" required="required"/>
-             prenom <input type="text" id="prenom" placeholder="Prenom" required="required" />
-             <select id="genre">
-                 <option>M</option>
-                 <option>F</option>
-             </select>
-             <input type="color" id="couleur" placeholder="Couleur" />
-             <a href="#" onclick="mesinfos()">Valider</a>
-         </form>
-    </div>
-    <div id="fiche">test</div>
-      <script src="js/formChecker.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript formChecker Library</title>
+        <meta name="description" content="Javascript formChecker Library">
+        <meta name="author" content="Kevin FERRANDON">
+    </head>
+    <body>
+        <div id="content">
+            <h1>formChecker exemple</h1>
+            <form><input type="text" placeholder="Search" ><a href="#" >Rechercher</a></form>
+            <form>
+                <label for="name"> name</label><input type="text" id="name" placeholder="name" required="required"/>
+                age <input type="number" id="age" placeholder="age" required="required" />
+               
+                <select id="sex">
+                    <option>M</option>
+                    <option>F</option>
+                </select>
+                <input type="color" id="couleur" placeholder="Couleur" />
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
+        <script src="js/formChecker.js"></script>
+    </body>
 </html>
