@@ -1,6 +1,8 @@
 /**
  * formChecker check Required field on form and add red start with span tag
  * before this field or after. You can change all parameters.
+ * @author Kevin FERRANDON
+ * @version 1.0.0
  * @type Object
  */
 class formChecker {
